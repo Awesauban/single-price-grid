@@ -69,6 +69,17 @@ p > span {
   color: #fff;
   background-color: hsl(71, 73%, 54%);
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: hsl(71, 73%, 54%);
+}
+
+.btn:focus {
+  background-color: hsl(71, 73%, 54%, 0.8);
+  color: #fff;
 }
 
 .third-card {
